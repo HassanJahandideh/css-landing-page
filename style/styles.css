@@ -5,7 +5,7 @@
    --heading-font: "Nunito", serif;
    --heading-color: #363636;
    --paragraph-font: "Inter", serif;
-   --paragraph-color: #696969;
+   --paragraph-color: #807f7f;
    --ios-color: rgb(102, 146, 102);
    --mac-color: rgb(102, 102, 253);
 }
@@ -16,7 +16,7 @@
    cursor: pointer;
 }
 .container{
-   background-image: url(../images/bg-header-mobile.png);
+   background-image: url(images/bg-header-mobile.png);
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -50,7 +50,7 @@
    justify-content: center;
    gap: 1rem;
 }
-.ios, .mac{
+.d-ios, .d-mac{
    width: 240%;
    border-radius: 50px;
    font-family: var(--heading-font);
@@ -60,9 +60,201 @@
    font-size: 1em;
    box-shadow: 0px 6px 5px 0px;
 }
-.ios{
+.d-ios{
    background-color: var(--ios-color); 
 }
-.mac{
+.d-mac{
    background-color: var(--mac-color);
+}
+.track-container{
+   text-align: center;
+   padding-top: 7rem;
+}
+.track{
+   font-family: var(--heading-font);
+   color: var(--heading-color);
+}
+.track-txt{
+   padding-top: 1rem;
+   font-family: var(--paragraph-font);
+   color: var(--paragraph-color);
+   font-size: 0.9rem;
+   line-height: 1.5rem;
+}
+.mac-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 4rem;
+}
+.mac{
+   width: 85%;
+   height: 85%;
+}
+.future-container {
+   text-align: center;
+   padding-top: 3.5rem;
+}
+.head{
+   font-family: var(--heading-font);
+   color: var(--heading-color);
+   font-size: 1.5em;
+}
+.about{
+   padding-top: 1rem;
+   font-family: var(--paragraph-font);
+   color: var(--paragraph-color);
+   font-size: 0.9rem;
+   line-height: 1.5rem;
+   padding-bottom: 2.7rem;
+   margin-top: -0.5rem;
+}
+.access-container{
+   text-align: center;
+   padding-top: 7rem;
+}
+.access{
+   font-family: var(--heading-font);
+   color: var(--heading-color);
+
+}
+.access-txt{
+   padding-top: 1rem;
+   font-family: var(--paragraph-font);
+   color: var(--paragraph-color);
+   font-size: 0.9rem;
+   line-height: 1.5rem;
+}
+.devices-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 4rem;
+}
+.devices{
+   width: 90%;
+   height: 90%;
+}
+.supercharger-container{
+   text-align: center;
+   padding-top: 6rem;
+}
+.supercharger{
+   font-family: var(--heading-font);
+   color: var(--heading-color);
+}
+.boost{
+   padding-top: 1rem;
+   font-family: var(--paragraph-font);
+   color: var(--paragraph-color);
+   font-size: 0.9rem;
+   line-height: 1.5rem;
+   margin-top: -0.2rem;
+}
+.icon-txt-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 5rem;
+   gap: 2rem;
+   text-align: center;
+}
+.icon-container{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   gap: 1rem;
+   padding-top: 1rem;
+}
+.icon-txt{
+   font-family: var(--heading-font);
+   color: var(--heading-color);
+   font-size: 1.5em;
+   padding-top: 1rem;
+}
+.about-icon{
+   font-family: var(--paragraph-font);
+   color: var(--paragraph-color);
+   font-size: 0.9rem;
+   line-height: 1.5rem;
+}
+.company-logo-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 8rem;
+   gap: 5rem;
+}
+.company-logo{
+   width: 35%;
+}
+.clipboard-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding-top: 9rem;
+   gap: 1rem;
+}
+.clipboard-head{
+   font-family: var(--heading-font);
+   color: var(--heading-color);
+   font-size: 1.5em;
+}
+.clipboard-txt{
+   font-family: var(--paragraph-font);
+   color: var(--paragraph-color);
+   font-size: 0.9rem;
+   line-height: 1.5rem;
+}
+.s-download-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 2rem;
+   gap: 1rem;
+}
+footer{
+   padding-top: 10rem;
+}
+.footer-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 2.5rem;
+   padding-bottom: 2rem;
+   gap: 2rem;
+   background-color: #d4d4d4;
+   width: 100%;
+}
+.footer-logo-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.footer-logo{
+   width: 40%;
+}
+.footer-links{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   flex-direction: column;
+}
+a {
+   text-decoration: none;
+   color: var(--heading-color);
+   font-family: var(--paragraph-font);
+}
+.social-links{
+   display: flex;
+   gap: 2rem;
 }
